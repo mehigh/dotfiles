@@ -20,3 +20,6 @@ _rbenv() {
 
   reply=("${(ps:\n:)completions}")
 }
+
+# load z frecent folder jump
+. ~/.dotfiles/bin/z.sh
