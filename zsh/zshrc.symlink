@@ -16,6 +16,8 @@ fi
 typeset -U config_files
 config_files=($ZSH/**/*.zsh)
 
+zstyle ':omz:plugins:ssh-agent' identities 'id_rsa' 'id_rsa_bitbucket'
+
 # load the path files
 for file in ${(M)config_files:#*/path.zsh}
 do
