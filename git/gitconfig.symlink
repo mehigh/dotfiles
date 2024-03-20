@@ -33,3 +33,6 @@
         default = simple
 [credential]
 	helper = osxkeychain
+[user]
+	name = Mike Crantea
+	email = mike.crantea@xwp.co
